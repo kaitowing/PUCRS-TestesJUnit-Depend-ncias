@@ -12,14 +12,21 @@ public class EstatisticasDTO {
     }
 
     public double getMedia() {
-        return media;
+        String formattedMedia = String.format("%.2f", media);
+        formattedMedia = formattedMedia.replace(',', '.'); // Substitui a vírgula por ponto
+        return Double.parseDouble(formattedMedia);
     }
-
+    
     public double getMediana() {
-        return mediana;
+        String formattedMediana = String.format("%.2f", mediana);
+        formattedMediana = formattedMediana.replace(',', '.'); // Substitui a vírgula por ponto
+        return Double.parseDouble(formattedMediana);
     }
-
+    
     public double getDesvioPadrao() {
-        return desvioPadrao;
-    }    
+        String formattedDesvioPadrao = String.format("%.2f", desvioPadrao);
+        formattedDesvioPadrao = formattedDesvioPadrao.replace(',', '.'); // Substitui a vírgula por ponto
+        return Double.parseDouble(formattedDesvioPadrao);
+    }
+    
 }
