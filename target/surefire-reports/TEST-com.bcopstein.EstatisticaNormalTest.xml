@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.bcopstein.EstatisticaNormalTest" time="0.117" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.bcopstein.EstatisticaNormalTest" time="0.815" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BR"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire/surefirebooter1435895843997506213.jar /home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire 2023-10-22T17-21-17_941-jvmRun1 surefire11860857484241474136tmp surefire_016759621439117051544tmp"/>
+    <property name="sun.java.command" value="/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire/surefirebooter17889004649121194857.jar /home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire 2023-10-22T20-07-22_927-jvmRun1 surefire16110686936452923746tmp surefire_018125131865015650870tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/test-classes:/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/classes:/home/arthur/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/arthur/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/arthur/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/arthur/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/arthur/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/arthur/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/arthur/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/arthur/.m2/repository/org/mockito/mockito-core/3.5.13/mockito-core-3.5.13.jar:/home/arthur/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/arthur/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/arthur/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire/surefirebooter1435895843997506213.jar"/>
+    <property name="surefire.real.class.path" value="/home/arthur/Workspace/PUCRS/Verival/Trabalho 2/PUCRS-TestesJUnit-Dependencias/target/surefire/surefirebooter17889004649121194857.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8.1+1-Ubuntu-0ubuntu122.04"/>
     <property name="user.name" value="arthur"/>
@@ -51,7 +51,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testCalculaEstatisticas" classname="com.bcopstein.EstatisticaNormalTest" time="0.094">
+  <testcase name="testCalculaEstatisticas" classname="com.bcopstein.EstatisticaNormalTest" time="0.786">
     <system-err><![CDATA[java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo.
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:94)
 	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
@@ -84,15 +84,29 @@
 	at java.base/java.util.Formatter.zero(Formatter.java:2450)
 	at java.base/java.util.Formatter$FormatSpecifier.getZero(Formatter.java:4450)
 	at java.base/java.util.Formatter$FormatSpecifier.localizedMagnitude(Formatter.java:4466)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3486)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3412)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2972)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3276)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3261)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2957)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2918)
 	at java.base/java.util.Formatter.format(Formatter.java:2689)
 	at java.base/java.util.Formatter.format(Formatter.java:2625)
 	at java.base/java.lang.String.format(String.java:4145)
-	at com.bcopstein.EstatisticasDTO.getMedia(EstatisticasDTO.java:15)
-	at com.bcopstein.EstatisticaNormalTest.testCalculaEstatisticas(EstatisticaNormalTest.java:38)
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:120)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:46)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:43)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:153)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:366)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:175)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:377)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:36)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:77)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:43)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.createMock(ByteBuddyMockMaker.java:29)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:52)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:61)
+	at org.mockito.Mockito.mock(Mockito.java:1949)
+	at org.mockito.Mockito.mock(Mockito.java:1860)
+	at com.bcopstein.EstatisticaNormalTest.setUp(EstatisticaNormalTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,8 +115,8 @@
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
 	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:76)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
@@ -111,10 +125,14 @@
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:481)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$18(ClassBasedTestDescriptor.java:466)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$2(TestMethodTestDescriptor.java:169)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$5(TestMethodTestDescriptor.java:197)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:197)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:133)
 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -163,7 +181,7 @@ Caused by: java.io.IOException: Error while instrumenting sun/util/resources/cld
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrumentError(Instrumenter.java:160)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:110)
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 105 more
+	... 123 more
 Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:196)
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:177)
@@ -171,7 +189,7 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	at org.jacoco.agent.rt.internal_f3994fa.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:76)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:108)
-	... 106 more
+	... 124 more
 java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/util/resources/provider/LocaleDataProvider.
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:94)
 	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
@@ -210,15 +228,29 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at java.base/java.util.Formatter.zero(Formatter.java:2450)
 	at java.base/java.util.Formatter$FormatSpecifier.getZero(Formatter.java:4450)
 	at java.base/java.util.Formatter$FormatSpecifier.localizedMagnitude(Formatter.java:4466)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3486)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3412)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2972)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3276)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3261)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2957)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2918)
 	at java.base/java.util.Formatter.format(Formatter.java:2689)
 	at java.base/java.util.Formatter.format(Formatter.java:2625)
 	at java.base/java.lang.String.format(String.java:4145)
-	at com.bcopstein.EstatisticasDTO.getMedia(EstatisticasDTO.java:15)
-	at com.bcopstein.EstatisticaNormalTest.testCalculaEstatisticas(EstatisticaNormalTest.java:38)
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:120)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:46)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:43)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:153)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:366)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:175)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:377)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:36)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:77)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:43)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.createMock(ByteBuddyMockMaker.java:29)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:52)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:61)
+	at org.mockito.Mockito.mock(Mockito.java:1949)
+	at org.mockito.Mockito.mock(Mockito.java:1860)
+	at com.bcopstein.EstatisticaNormalTest.setUp(EstatisticaNormalTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -227,8 +259,8 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
 	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:76)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
@@ -237,10 +269,14 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:481)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$18(ClassBasedTestDescriptor.java:466)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$2(TestMethodTestDescriptor.java:169)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$5(TestMethodTestDescriptor.java:197)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:197)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:133)
 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -289,7 +325,7 @@ Caused by: java.io.IOException: Error while instrumenting sun/util/resources/pro
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrumentError(Instrumenter.java:160)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:110)
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 111 more
+	... 129 more
 Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:196)
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:177)
@@ -297,7 +333,7 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	at org.jacoco.agent.rt.internal_f3994fa.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:76)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:108)
-	... 112 more
+	... 130 more
 java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/text/resources/cldr/ext/FormatData_pt.
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:94)
 	at java.instrument/java.lang.instrument.ClassFileTransformer.transform(ClassFileTransformer.java:244)
@@ -334,15 +370,29 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at java.base/java.util.Formatter.zero(Formatter.java:2450)
 	at java.base/java.util.Formatter$FormatSpecifier.getZero(Formatter.java:4450)
 	at java.base/java.util.Formatter$FormatSpecifier.localizedMagnitude(Formatter.java:4466)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3486)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3412)
-	at java.base/java.util.Formatter$FormatSpecifier.printFloat(Formatter.java:2972)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2924)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3276)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:3261)
+	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Formatter.java:2957)
+	at java.base/java.util.Formatter$FormatSpecifier.print(Formatter.java:2918)
 	at java.base/java.util.Formatter.format(Formatter.java:2689)
 	at java.base/java.util.Formatter.format(Formatter.java:2625)
 	at java.base/java.lang.String.format(String.java:4145)
-	at com.bcopstein.EstatisticasDTO.getMedia(EstatisticasDTO.java:15)
-	at com.bcopstein.EstatisticaNormalTest.testCalculaEstatisticas(EstatisticaNormalTest.java:38)
+	at org.mockito.internal.creation.bytebuddy.SubclassBytecodeGenerator.mockClass(SubclassBytecodeGenerator.java:120)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:46)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator$1.call(TypeCachingBytecodeGenerator.java:43)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:153)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:366)
+	at net.bytebuddy.TypeCache.findOrInsert(TypeCache.java:175)
+	at net.bytebuddy.TypeCache$WithInlineExpunction.findOrInsert(TypeCache.java:377)
+	at org.mockito.internal.creation.bytebuddy.TypeCachingBytecodeGenerator.mockClass(TypeCachingBytecodeGenerator.java:36)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMockType(SubclassByteBuddyMockMaker.java:77)
+	at org.mockito.internal.creation.bytebuddy.SubclassByteBuddyMockMaker.createMock(SubclassByteBuddyMockMaker.java:43)
+	at org.mockito.internal.creation.bytebuddy.ByteBuddyMockMaker.createMock(ByteBuddyMockMaker.java:29)
+	at org.mockito.internal.util.MockUtil.createMock(MockUtil.java:52)
+	at org.mockito.internal.MockitoCore.mock(MockitoCore.java:61)
+	at org.mockito.Mockito.mock(Mockito.java:1949)
+	at org.mockito.Mockito.mock(Mockito.java:1860)
+	at com.bcopstein.EstatisticaNormalTest.setUp(EstatisticaNormalTest.java:22)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -351,8 +401,8 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
 	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:149)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:140)
-	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:84)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptLifecycleMethod(TimeoutExtension.java:126)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptBeforeEachMethod(TimeoutExtension.java:76)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
@@ -361,10 +411,14 @@ java.lang.instrument.IllegalClassFormatException: Error while instrumenting sun/
 	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
 	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:212)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeMethodInExtensionContext(ClassBasedTestDescriptor.java:481)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$synthesizeBeforeEachMethodAdapter$18(ClassBasedTestDescriptor.java:466)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeEachMethods$2(TestMethodTestDescriptor.java:169)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeBeforeMethodsOrCallbacksUntilExceptionOccurs$5(TestMethodTestDescriptor.java:197)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:208)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:137)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeMethodsOrCallbacksUntilExceptionOccurs(TestMethodTestDescriptor.java:197)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeBeforeEachMethods(TestMethodTestDescriptor.java:166)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:133)
 	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:71)
 	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
 	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
@@ -413,7 +467,7 @@ Caused by: java.io.IOException: Error while instrumenting sun/text/resources/cld
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrumentError(Instrumenter.java:160)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:110)
 	at org.jacoco.agent.rt.internal_f3994fa.CoverageTransformer.transform(CoverageTransformer.java:92)
-	... 109 more
+	... 127 more
 Caused by: java.lang.IllegalArgumentException: Unsupported class file major version 61
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:196)
 	at org.jacoco.agent.rt.internal_f3994fa.asm.ClassReader.<init>(ClassReader.java:177)
@@ -421,7 +475,8 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	at org.jacoco.agent.rt.internal_f3994fa.core.internal.instr.InstrSupport.classReaderFor(InstrSupport.java:280)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:76)
 	at org.jacoco.agent.rt.internal_f3994fa.core.instr.Instrumenter.instrument(Instrumenter.java:108)
-	... 110 more
+	... 128 more
 ]]></system-err>
   </testcase>
+  <testcase name="testCalculaEstatisticasImpar" classname="com.bcopstein.EstatisticaNormalTest" time="0.002"/>
 </testsuite>

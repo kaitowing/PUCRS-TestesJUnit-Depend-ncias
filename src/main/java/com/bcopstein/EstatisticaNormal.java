@@ -34,7 +34,7 @@ public class EstatisticaNormal implements ICalculoEstatistica {
         if (valores.size() > 0){
             mediana =
                 ((valores.size() % 2 == 0) ?
-                (valores.get(valores.size()/2 - 1))+(valores.get(valores.size()/2))/2.0 :
+                ((valores.get(valores.size()/2 - 1))+(valores.get(valores.size()/2)))/2.0 :
                 (valores.get(valores.size()/2)));
         }
         // Calcula o desvio padrao
